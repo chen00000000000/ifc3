@@ -42,7 +42,7 @@ async function loadIfc(url) {
     viewer.shadowDropper.renderShadow(model.modelID);
 }
 
-loadIfc('./01.ifc');
+loadIfc('./solar penal.ifc');
 
 window.onkeydown = (event) => {
     if (event.code === 'KeyP') {
